@@ -8,6 +8,11 @@
     background-size: cover;
     min-height:80vh;
 }
+#service{
+    background-image:url("../img/servicesbackground.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 #p-service{
     text-align:center;
     color:white;
