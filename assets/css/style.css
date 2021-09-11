@@ -21,7 +21,13 @@
     background-image:url("../img/conactbackground.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    color:white;
 }
-#contact-form{
-    opacity: 0.3;
+::placeholder {
+    color:white !important;
+  }
+.form-control{
+    background-color: transparent;
 }
+
+
