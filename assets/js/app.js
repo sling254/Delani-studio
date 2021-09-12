@@ -50,6 +50,18 @@ $(document).ready(function(){
         $(this).toggle();
     })
 
+    $(".portfolio-img").hover(function(){
+        let target = $(this).children('div');
+        target.css({'opacity':"1"});
+        // target.css({'display':"flex"});
+    },
+    function(){
+        $(this).children('div').css({'opacity':"0"});
+        // target.css({'display':"none"});
+        // target;
+
+    })
+
 
 
 

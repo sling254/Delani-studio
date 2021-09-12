@@ -47,9 +47,7 @@
 ::placeholder {
     color:white !important;
   }
-.form-control{
-    background-color: transparent;
-}
+
 .portfolio-img{
     position: relative;
 }
@@ -68,10 +66,8 @@
     align-items:center;
     justify-content:center;
     border: 15px solid whitesmoke;
-
-
+    opacity: 0;
 }
-
 
 
 /*.name {
