@@ -26,6 +26,9 @@
 #product-description{
     display: none;
 }
+/* .portfolio img{
+    position: relative;
+} */
 #service{
     background-image:url("../img/servicesbackground.jpg");
     background-repeat:no-repeat;
@@ -49,3 +52,17 @@
 }
 
 
+/* display: none;
+text-align: center;
+cursor: pointer;
+width: 80%;
+height: 80%;
+padding: 20%;
+border: 15px solid white;
+background: transparent;
+position: absolute;
+top: 50%;
+font-weight: 900;
+left: 50%;
+transform: translate(-50%, -50%);
+ */

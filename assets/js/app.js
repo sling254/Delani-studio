@@ -17,7 +17,7 @@ $(document).ready(function(){
    }) */
 
 
-  $("#design-img").on("click",function(){
+  /* $("#design-img").on("click",function(){
       $(this).hide();
       style();
       $("#design-description").toggle();
@@ -30,14 +30,25 @@ $(document).ready(function(){
         $("#development-description").toggle();
     });
 
-    $("#product-img").on("click",function(){
+    $("#product-img").on("click",function(){        
         $(this).hide();
         style();
         $("#product-description").toggle();
+
+        
     });
+ */
+    $(".icon").click(function(){
+        style();
+        $(this).toggle();
+        $(this).siblings().toggle();
+      });
 
-
-
+    $(".info").click(function(){
+        style();
+        $(this).siblings().toggle();
+        $(this).toggle();
+    })
 
 
 
