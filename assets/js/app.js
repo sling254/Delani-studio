@@ -53,14 +53,35 @@ $(document).ready(function(){
     $(".portfolio-img").hover(function(){
         let target = $(this).children('div');
         target.css({'opacity':"1"});
-        // target.css({'display':"flex"});
     },
     function(){
         $(this).children('div').css({'opacity':"0"});
-        // target.css({'display':"none"});
-        // target;
 
     })
+   
+
+    /* form validation */
+    function validateForm(e){
+        e.preventDefault();
+        fname = $("#fname").val().toUpperCase();
+        email = $("#email").val();
+        message = $("message").val();
+        if(fname==="" || email==="" || message === ""){
+            alert("form invalid :: All fields must be filled")
+        }else{
+            alert(`${fname}  we have received your message. Thank you for reaching out to us.`)
+        }
+
+        
+    }
+    $("#contact-form").submit(validateForm)
+
+
+
+    /* get current year for footer section */    
+    let year= new Date().getFullYear()
+    
+    $("#year").text(year);
 
 
 

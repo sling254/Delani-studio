@@ -47,6 +47,11 @@
 ::placeholder {
     color:white !important;
   }
+  .btn-submit{
+    font-weight: 900;
+    border: 1px solid white;
+    display: inline-block;
+}
 
 .portfolio-img{
     position: relative;
@@ -69,20 +74,3 @@
     opacity: 0;
 }
 
-
-/*.name {
-  display: none;
-  text-align: center;
-  cursor: pointer;
-  width: 80%;
-  height: 80%;
-  padding: 20%;
-  border: 15px solid white;
-  background:transparent;
-  position: absolute;
-  top: 50%;
-  font-weight: 900;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
- */
