@@ -5,39 +5,6 @@ function style(){
 }
 $(document).ready(function(){
     /* toggle What We Do Section */
-    
-/*    $("#design-img").hover(function(){
-       $(this).hide();
-   },function(){
-       $("#design-description").show();
-
-   });
-   $("#development-img").hover(function(){
-       
-   }) */
-
-
-  /* $("#design-img").on("click",function(){
-      $(this).hide();
-      style();
-      $("#design-description").toggle();
-    
-    });
-
-    $("#development-img").on("click",function(){
-        $(this).hide();
-        style();
-        $("#development-description").toggle();
-    });
-
-    $("#product-img").on("click",function(){        
-        $(this).hide();
-        style();
-        $("#product-description").toggle();
-
-        
-    });
- */
     $(".icon").click(function(){
         style();
         $(this).toggle();
@@ -49,6 +16,7 @@ $(document).ready(function(){
         $(this).siblings().toggle();
         $(this).toggle();
     })
+    /* add hover effect to portfolio section */
 
     $(".portfolio-img").hover(function(){
         let target = $(this).children('div');
@@ -58,8 +26,6 @@ $(document).ready(function(){
         $(this).children('div').css({'opacity':"0"});
 
     })
-   
-
     /* form validation */
     function validateForm(e){
         e.preventDefault();
@@ -71,10 +37,6 @@ $(document).ready(function(){
         }else{
             alert(`${fname}  we have received your message. Thank you for reaching out to us.`)
         }
-
-        reset();
-
-        
     }
     $("#contact-form").submit(validateForm)
 
@@ -84,9 +46,5 @@ $(document).ready(function(){
     let year= new Date().getFullYear()
     
     $("#year").text(year);
-
-
-
-
 
 });

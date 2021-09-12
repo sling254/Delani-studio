@@ -3,9 +3,7 @@
     margin: 0;
     padding: 0;
 }
-#service p{
-    font-family: 'Montserrat', sans-serif;
-}
+/* style the header */
 #header{
     background-image:url("../img/headerbackground.jpg");
     background-repeat:no-repeat;
@@ -21,41 +19,35 @@
     color:white;
     
   }
-#design-description{
-    display:none;
-}
-#development-description{
-    display: none;
-}
-#product-description{
-    display: none;
-}
-
-#service{
-    background-image:url("../img/servicesbackground.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
+  /* style the service section */
+#service p{
+    font-family: 'Montserrat', sans-serif;
 }
 #p-service{
     font-family: 'Montserrat', sans-serif;
     text-align:center;
     color:white;
 }
-#contact-section{
-    background-image:url("../img/conactbackground.jpg");
+#service{
+    background-image:url("../img/servicesbackground.jpg");
     background-repeat:no-repeat;
-    background-size:cover;
-    color:white;
+    background-size: cover;
 }
-::placeholder {
-    color:white !important;
-  }
-  .btn-submit{
-    font-weight: 900;
-    border: 1px solid white;
-    display: inline-block;
+/* style What we Do section */
+#design-description{
+    display:none;
+    font-family: 'Montserrat', sans-serif;
+}
+#development-description{
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+}
+#product-description{
+    display: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* style portfolio section */
 .portfolio-img{
     position: relative;
 }
@@ -75,5 +67,21 @@
     justify-content:center;
     border: 15px solid whitesmoke;
     opacity: 0;
+}
+
+/* style the contact form */
+#contact-section{
+    background-image:url("../img/conactbackground.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+}
+::placeholder {
+    color:white !important;
+  }
+  .btn-submit{
+    font-weight: 900;
+    border: 1px solid white;
+    display: inline-block;
 }
 
