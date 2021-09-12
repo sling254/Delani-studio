@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+#service p{
+    font-family: 'Montserrat', sans-serif;
 }
 #header{
     background-image:url("../img/headerbackground.jpg");
@@ -26,15 +30,14 @@
 #product-description{
     display: none;
 }
-/* .portfolio img{
-    position: relative;
-} */
+
 #service{
     background-image:url("../img/servicesbackground.jpg");
     background-repeat:no-repeat;
     background-size: cover;
 }
 #p-service{
+    font-family: 'Montserrat', sans-serif;
     text-align:center;
     color:white;
 }
