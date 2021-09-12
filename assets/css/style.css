@@ -17,6 +17,15 @@
     color:white;
     
   }
+#design-description{
+    display:none;
+}
+#development-description{
+    display: none;
+}
+#product-description{
+    display: none;
+}
 #service{
     background-image:url("../img/servicesbackground.jpg");
     background-repeat:no-repeat;
